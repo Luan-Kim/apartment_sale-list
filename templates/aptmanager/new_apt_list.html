@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <center>
+    <h1>- 분양 아파트 목록 -</h1>
+        {% for apt in candidates %}
+        <tr>
+            <p>{{apt.apt_name}}</p>
+        </tr>
+        {% endfor %}
+    </center>
+</body>
+</html>
